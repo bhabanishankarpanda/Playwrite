@@ -7,12 +7,12 @@ if ((username === "Dev" && password === "secure123") && !isAccountLocked) {
 } else {
     console.log("not allwed to enter");
 }
-
+//---------------------------------------------------------------------------------------
 let x = 10;
 if (x > 5)
     console.log("x is big");
 
-
+//---------------------------------------------------------------------------------------
 if ([]) {
     console.log("True!")
 }
