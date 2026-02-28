@@ -19,7 +19,7 @@ if (isLoggedIn) {
     console.log("You are not logged in!!")
 }
 
-
+//--------------------------------------------------------
 
 let statusCode = 200; // APIs are working fine
 
@@ -33,20 +33,20 @@ if (statusCode == 200) {
 
 
 
-//true 
+//true results---------------------------------------
 if ("hello") console.log("String is truthy"); // "hello" = truthy
 if (42) console.log("Number is truthy");
 if ({}) console.log("Empty object is truthy!");
 if ([]) console.log("Empty array is truthy!");
 
-// false results
+// false results---------------------------------------
 if ("") console.log("Won't print");  // "" -> falsy result
 if (null) console.log("Won't print");
 if (undefined) console.log("Won't print");
 if (NaN) console.log("Won't print");
 if (0) console.log("Won't print"); 
 
-//Real life example
+//Real life example ------------------------------------
 let email = "user@example.com";
 let password = "123456";
 
